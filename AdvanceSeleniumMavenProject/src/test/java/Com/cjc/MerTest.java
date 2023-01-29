@@ -77,6 +77,13 @@ WebDriver driver;
 		.click();
 		Thread.sleep(3000);
 	}
+	@AfterTest
+	public void m2()
+	{
+	 System.out.println("Hello");
+	
+	}
+	
 	@AfterClass
 	public void m1()
 	{
