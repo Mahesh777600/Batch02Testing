@@ -75,4 +75,10 @@ WebDriver driver;
 		.click();
 		Thread.sleep(3000);
 	}
+	@AfterSuite
+	public void return()
+	{
+		driver.close();
+	}
+	
 }
