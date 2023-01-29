@@ -1,0 +1,16 @@
+<log4j:event logger="Log4jProject.Demo" timestamp="1674829976747" level="INFO" thread="main">
+<log4j:message><![CDATA[Info]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="Log4jProject.Demo" timestamp="1674829976750" level="WARN" thread="main">
+<log4j:message><![CDATA[Warn]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="Log4jProject.Demo" timestamp="1674829976750" level="ERROR" thread="main">
+<log4j:message><![CDATA[error]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="Log4jProject.Demo" timestamp="1674829976751" level="FATAL" thread="main">
+<log4j:message><![CDATA[Fatal]]></log4j:message>
+</log4j:event>
+
